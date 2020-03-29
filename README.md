@@ -1,3 +1,5 @@
+![](https://github.com/Paperspace/gradient-coder/workflows/Publish%20to%20Registry/badge.svg)
+
 # Gradient + [Coder](https://github.com/cdr/code-server)
 
 Run a full VScode IDE in the browser as a Gradient Notebook! 
