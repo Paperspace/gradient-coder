@@ -16,3 +16,4 @@ jobs:
         DOCKERHUB_USERNAME: ${{ secrets.DOCKER_USERNAME }}
         DOCKERHUB_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
         DOCKERHUB_REPOSITORY: paperspace/gradient-coder
+        README_FILEPATH: README.md
