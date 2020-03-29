@@ -1,4 +1,4 @@
-![](https://github.com/Paperspace/gradient-coder/workflows/Publish%20to%20Registry/badge.svg)
+![.github/workflows/publish-docker-image.yaml](https://github.com/Paperspace/gradient-coder/workflows/.github/workflows/publish-docker-image.yaml/badge.svg)
 
 # Gradient + [Coder](https://github.com/cdr/code-server)
 
