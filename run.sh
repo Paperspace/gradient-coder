@@ -4,9 +4,9 @@
 # Generates a random alphanumeric string of length 48 (like a jupyter notebook token i.e. c8de56fa4deed24899803e93c227592aef6538f93025fe01) if JUPYTER_TOKEN doesn't aready exist
 if [ -z "${JUPYTER_TOKEN:-}" ];
 then
-   NEW_UUID=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 48 | head -n 1);
+   NEW_UUID=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 48 | head -n 1)
 else
-   NEW_UUID="$JUPYTER_TOKEN";
+   NEW_UUID="$JUPYTER_TOKEN"
 fi
 
 # Note: this function passes in a mocked jupyter token so that we can run this container as if it is a notebook within Gradient
