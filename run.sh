@@ -19,4 +19,4 @@ function print_message
 
 print_message
 
-PASSWORD=${NEW_UUID} /usr/local/bin/code-server --host 0.0.0.0 --port 8888
+PASSWORD="${NEW_UUID}" /usr/local/bin/code-server --host 0.0.0.0 --port 8888
